@@ -35,7 +35,6 @@ header {
   text-align: center;
 }
 
-
 section {
   margin: 30px;
 }
@@ -67,4 +66,17 @@ a {
 
 .more-link {
   color: #ab47bc;
+}
+
+.col-sm-3 {
+  position: left;
+  background-color: rgb(223, 139, 124);
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
 }
