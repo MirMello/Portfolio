@@ -32,20 +32,29 @@ p {
 }
 
 header {
+  padding-bottom: 10px;
+  position: relative;
+  right: 100px;
   text-align: center;
 }
 
 section {
-  margin: 30px;
+  padding: 15px;
 }
 
-main {
-  max-width: 800px;
-  margin: 60px auto;
+hr {
+  margin-top: 250px;
+  border-width: 0;
+  border-top: 2px solid #222;
+  width: 200px;
 }
 
 a {
   color: #222;
+}
+
+.projects {
+  background-color: rgb(243, 207, 207);
 }
 
 .social-links a {
@@ -69,14 +78,35 @@ a {
 }
 
 .col-sm-3 {
+  padding: 0;
   position: left;
   background-color: rgb(223, 139, 124);
 }
 
+.M {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 100px;
+}
+
+ul {
+  margin-top: 150px;
+}
+
 ul li {
+  margin: 15px;
+  font-size: 20px;
   list-style: none;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 ul li a {
   text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
 }
