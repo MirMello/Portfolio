@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="./node_modules/bootstrap/scss/" />
 <link rel="stylesheet" href="./assets/css/style.css" />
 <html lang="en">
-    
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Miranda's Portfolio</title>
-  </head>
+</head>
 
-  <body>
+<body>
 
     <header>
         <h1>
@@ -41,44 +42,46 @@
             My hobbies include making scrunchies and playing video games </br>
             Getting my coding certificate to become a full stack developer! </br>
         </p>
-    </section>  
+    </section>
 
-      <section id="projects">
-          <h2>
-              Projects
-          </h2>
-        <article class="project-1"> 
-            <div>
+    <section id="projects">
+        <h2>
+            Projects
+        </h2>
+
+        <div class="container">
+            <article class="row-cols-1 project-1">
+                <div class="paradise-paw">
+                    <h3>
+                        <a href="https://github.com/JaydenCowley/Paradise-Paw">Paradise Paw</a>
+                    </h3>
+                    <iframe title="Group Project 1" width="500" height="500"
+                        src="https://jaydencowley.github.io/Paradise-Paw/"></iframe>
+                </div>
+
+            </article>
+
+            <article class="row-cols-2 project-2">
+                <div class="run-buddy">
+                    <h3>
+                        <a href="https://mirmello.github.io/run-buddy/">Run Buddy Project</a>
+                    </h3>
+                    <iframe title="Run Buddy Project" width="500" height="500"
+                        src="https://mirmello.github.io/run-buddy/"></iframe>
+                </div>
+        </div>
+        <!-- End of Row 1 -->
+
+        <div class="row-2">
+            <div class="coming-soon">
                 <h3>
-                    <a href="https://mirmello.github.io/run-buddy/">Run Buddy Project</a>
+                    Coming Soon
                 </h3>
-                <iframe 
-                title="Run Buddy Project"
-                width="1000"
-                height="500"
-                src="https://mirmello.github.io/run-buddy/"></iframe>
+                <img src="./assets/Coming Soon.jfif">
             </div>
-        </article>
-
-        <article class="project-2">
-            <div class="second-row">    
-                <div class="robot-gladiators">
-                    <h3>
-                        <a href="https://mirmello.github.io/robot-gladiators/">Robot Gladiators Project</a>
-                    </h3>
-                    <iframe 
-                    title="Robot Gladiators Project" 
-                    width="450"
-                    height="250"
-                    src="https://mirmello.github.io/robot-gladiators/"></iframe>
-                </div>
-                <div class="coming-soon">
-                    <h3>
-                        Coming Soon
-                    </h3>
-                    <img src="./assets/Coming Soon.jfif">
-                </div>
-            </div>
+        </div>
+        <!-- End of Row 2 -->
+        </div>
         </article>
     </section>
 
@@ -97,12 +100,13 @@
                     <a href="https://github.com/MirMello">MirMello</a>
                 </li>
             </ul>
-        </div>        
+        </div>
     </section>
 
     <footer>
         <h2>Made by Miranda Mello</h2>
     </footer>
 
-  </body>
+</body>
+
 </html>
