@@ -38,6 +38,11 @@ header {
   text-align: center;
 }
 
+.resume {
+  color: rgb(223, 139, 124);
+}
+
+
 section {
   padding: 15px;
 }
@@ -105,8 +110,13 @@ ul li a {
   text-decoration: none;
 }
 
-footer {
+.social-footer {
   position: absolute;
   bottom: 10px;
   left: 80px;
+}
+
+.contact-info {
+flex-wrap: wrap;
+position: relative;
 }
